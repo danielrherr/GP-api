@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"go"
 	//"github.com/danielrherr/Utils"
 )
 
@@ -16,3 +17,8 @@ func main() {
 func helloHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Hola, mundo")
 }
+
+/*func LoginHandler(w http.ResponseWriter,r *http.Request){
+	var x =  {"codigo":1,"descripcion":"hola mundo"}
+	return (X)
+}*/
