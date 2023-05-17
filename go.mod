@@ -1,3 +1,3 @@
-module gp.com/api
+module danielrherr/gp-api
 
 go 1.20
