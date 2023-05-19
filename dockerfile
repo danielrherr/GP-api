@@ -11,6 +11,7 @@ COPY go.mod .
 # Ejecuta 'go mod download' para descargar las dependencias
 RUN go mod download
 
+
 # Copia todo el contenido del directorio actual al contenedor
 COPY . .
 
